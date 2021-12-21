@@ -1,0 +1,94 @@
+.furniture {
+  margin-bottom: 64px;
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59 / 48;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+
+  &__container {
+    &-one {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+
+      & > div {
+        display: inline-block;
+        overflow: hidden;
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        & img {
+          position: relative;
+          transition: all 0.3s linear;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        & span {
+          position: absolute;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 34px;
+          line-height: 41px;
+          text-align: center;
+          color: #ffffff;
+          z-index: 1;
+        }
+      }
+    }
+    &-two {
+      display: flex;
+
+      & img {
+        margin-right: 32px;
+        width: 100%;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+      & > div {
+        display: inline-block;
+        overflow: hidden;
+        margin-right: 20px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        & img {
+          position: relative;
+          transition: all 0.3s linear;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        & span {
+          position: absolute;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 34px;
+          line-height: 41px;
+          text-align: center;
+          color: #ffffff;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

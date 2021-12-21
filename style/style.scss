@@ -1,0 +1,34 @@
+* {
+  font-family: "Montserrat", "Poppins", "Roboto", sans-serif;
+}
+
+.container {
+  // width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__button-search {
+  display: none;
+}
+
+.header__button-catalog {
+  display: none;
+}
+
+.header__button-car {
+  display: none;
+}
+
+.mobile-button-car {
+  display: none;
+}
+
+@import "../scss/__header";
+@import "../scss/_furniture";
+@import "../scss/__offers";
+@import "../scss/_catlog";
+@import "../scss/_footer";
+@import "../scss/_main-catalog";
+@import "../scss/_car";
+@import "../scss/_responsive";

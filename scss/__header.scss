@@ -1,0 +1,118 @@
+.header {
+  width: 100%;
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 735px;
+  margin-bottom: 64px;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 15px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+
+    &-logo {
+      text-decoration: none;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44 / 36;
+      color: #ffffff;
+    }
+
+    &-search {
+      border: 1px solid #ffffff;
+      border-radius: 20px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20 / 16;
+      color: black;
+      padding: 10px 0 10px 16px;
+    }
+
+    &-link {
+      a {
+        text-decoration: none;
+      }
+      &-catalog {
+        margin-right: 32px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20 / 16;
+        color: #ffffff;
+      }
+
+      &-cart {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20 / 16;
+        color: #ffffff;
+      }
+    }
+  }
+
+  &__text {
+    margin-top: 63px;
+    width: 70%;
+  }
+
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70 / 64;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+    &-link {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24 / 16;
+      text-decoration-line: underline;
+      color: #ffffff;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32 / 24;
+    color: #ffffff;
+  }
+}
+
+.header-catalog {
+  width: 100%;
+  background-image: url(../img/catalog.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 400px;
+  margin-bottom: 64px;
+}
+
+.header-car {
+  width: 100%;
+  background-image: url(../img/car.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 400px;
+  margin-bottom: 64px;
+}

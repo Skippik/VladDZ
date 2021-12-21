@@ -1,0 +1,46 @@
+.main-catalog {
+  .main__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    &-breadcrumbs {
+      display: flex;
+      & a {
+        display: block;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #000000;
+        margin-right: 10px;
+
+        &:first-of-type {
+          &::after {
+            margin-left: 10px;
+            content: "/";
+            color: #000000;
+            font-size: 16px;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+
+    &-select {
+      & select {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        padding: 11px 75px 11px 14px;
+        border: 1px solid #c4c4c4;
+        border-radius: 20px;
+      }
+    }
+  }
+}
